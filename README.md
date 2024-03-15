@@ -23,8 +23,8 @@ Once the program is running, follow the on-screen instructions to interact with 
 ```java
 public class Main {
     public static void main(String[] args) {
-        BankAccount account = new BankAccount("John Doe", "1234567890");
-        account.menuList();
+        BankAccount BA = new BankAccount("Menuk Fernando", "BA1002");
+        BA.menuList();
     }
 }
 ```
